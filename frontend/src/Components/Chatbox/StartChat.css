@@ -1,0 +1,43 @@
+/* Position the whole chat popup fixed at bottom-right */
+.start-chat-container {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 320px;
+  z-index: 1050;
+}
+
+/* Style the main chat card */
+.chat-popup {
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  border-radius: 20px;
+}
+
+/* Style the inner card */
+.inner-card {
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-left: 5px solid #007bff;
+}
+
+/* Text styling */
+.inner-text {
+  color: #012a4a;
+}
+
+.inner-icon {
+  color: #012a4a;
+  font-size: 1rem;
+}
+
+/* Button styling */
+.start-btn {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+  background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+  transform: scale(1.05);
+}
