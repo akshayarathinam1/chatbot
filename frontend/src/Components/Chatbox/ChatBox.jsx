@@ -1,31 +1,3 @@
-// import React from 'react';
-// import { Card, Form, Button} from "react-bootstrap";
-// import './ChatBox.css'; // Import CSS
-// import { IoMdSend } from "react-icons/io"
-// const ChatBox = () => {
-//   return (
-//     <Card className="chatbox shadow-lg">
-//       <Card.Header className="chatbox-header">
-//         Let's Chat 💬
-//       </Card.Header>
-
-//       <Card.Body className="chatbox-body">
-//         <div className="chat-time  small mb-2">Monday, 1:27 PM</div>
-//         <div className="chat-message mb-2">Welcome to our site</div>
-//         <div className="chat-message text-muted">...</div>
-//       </Card.Body>
-
-//       <Card.Footer className="chatbox-footer">
-//         <Form.Control type="text" placeholder="Type a message..." className="chat-input" />
-//         <Button className='sent-btn'>
-//             <IoMdSend />
-//         </Button>
-//       </Card.Footer>
-//     </Card>
-//   );
-// };
-
-// export default ChatBox;
 
 import React, { useState } from 'react';
 import { Card, Form, Button } from "react-bootstrap";
